@@ -38,6 +38,7 @@
     color: $menuitemTextColor;
     border-radius: $menuitemBorderRadius;
     transition: $listItemTransition;
+    -webkit-user-select: none;
     user-select: none;
 
     .p-menuitem-text {
@@ -83,6 +84,7 @@
         .p-menuitem-link {
             color: $menuitemTextColor;
             padding: $menuitemPadding;
+            -webkit-user-select: none;
             user-select: none;
 
             .p-menuitem-text {
@@ -168,6 +170,7 @@
     color: $horizontalMenuRootMenuitemTextColor;
     border-radius: $horizontalMenuRootMenuitemBorderRadius;
     transition: $listItemTransition;
+    -webkit-user-select: none;
     user-select: none;
 
     .p-menuitem-text {
@@ -213,6 +216,7 @@
 
         .p-menuitem-link {
             padding: $horizontalMenuRootMenuitemPadding;
+            -webkit-user-select: none;
             user-select: none;
 
             .p-menuitem-text {
@@ -255,15 +259,19 @@
 @mixin placeholder {
     ::-webkit-input-placeholder {
         @content;
+        text-transform: none;
     }
     :-moz-placeholder {
         @content;
+        text-transform: none;
     }
     ::-moz-placeholder {
         @content;
+        text-transform: none;
     }
     :-ms-input-placeholder {
         @content;
+        text-transform: none;
     }
 }
 

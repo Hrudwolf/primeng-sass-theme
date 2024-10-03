@@ -52,7 +52,7 @@
 }
 
 .p-float-label > .ng-invalid.ng-dirty + label {
-    color: $inputErrorBorderColor;
+    color: $errorColor;
 }
 
 .p-input-icon-left > .p-icon-wrapper.p-icon,

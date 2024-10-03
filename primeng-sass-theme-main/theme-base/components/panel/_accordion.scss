@@ -25,7 +25,7 @@
         &:not(.p-highlight):not(.p-disabled):hover {
             .p-accordion-header-link {
                 background: $accordionHeaderHoverBg;
-                border-color: $accordionHeaderHoverBorderColor;
+                border: $accordionHeaderHoverBorderColor;
                 color: $accordionHeaderTextHoverColor;
             }
         }

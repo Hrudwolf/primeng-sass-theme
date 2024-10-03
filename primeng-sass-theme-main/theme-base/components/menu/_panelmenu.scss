@@ -35,7 +35,7 @@
         &:not(.p-highlight):not(.p-disabled):hover {
             .p-panelmenu-header-content {
                 background: $accordionHeaderHoverBg;
-                border-color: $accordionHeaderHoverBorderColor;
+                border: $accordionHeaderHoverBorderColor;
                 color: $accordionHeaderTextHoverColor;
             }
         }

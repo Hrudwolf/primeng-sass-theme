@@ -24,6 +24,7 @@
 
         &.p-placeholder {
             color: $inputPlaceholderTextColor;
+            text-transform:none;
         }
 
         &:focus,

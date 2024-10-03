@@ -20,6 +20,7 @@
 
         &.p-placeholder {
             color: $inputPlaceholderTextColor;
+            text-transform:none;
         }
 
         &:enabled:focus {
