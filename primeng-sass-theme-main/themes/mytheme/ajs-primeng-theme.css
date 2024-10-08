@@ -2133,13 +2133,13 @@
     flex: 1;
   }
   .p-button.p-button-secondary, .p-button-group.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
-    color: #ffffff;
-    background: #607D8B;
-    border: 1px solid #607D8B;
+    color: #333333 !important;
+    background: white;
+    border: 1px solid #cccccc;
   }
   .p-button.p-button-secondary:not(:disabled):hover, .p-button-group.p-button-secondary > .p-button:not(:disabled):hover, .p-splitbutton.p-button-secondary > .p-button:not(:disabled):hover {
     background: #546E7A;
-    color: #ffffff;
+    color: #ffffff !important;
     border-color: #546E7A;
   }
   .p-button.p-button-secondary:not(:disabled):focus, .p-button-group.p-button-secondary > .p-button:not(:disabled):focus, .p-splitbutton.p-button-secondary > .p-button:not(:disabled):focus {
@@ -2147,38 +2147,38 @@
   }
   .p-button.p-button-secondary:not(:disabled):active, .p-button-group.p-button-secondary > .p-button:not(:disabled):active, .p-splitbutton.p-button-secondary > .p-button:not(:disabled):active {
     background: #455A64;
-    color: #ffffff;
+    color: #ffffff !important;
     border-color: #455A64;
   }
   .p-button.p-button-secondary.p-button-outlined, .p-button-group.p-button-secondary > .p-button.p-button-outlined, .p-splitbutton.p-button-secondary > .p-button.p-button-outlined {
     background-color: transparent;
-    color: #607D8B;
+    color: white;
     border: 1px solid;
   }
   .p-button.p-button-secondary.p-button-outlined:not(:disabled):hover, .p-button-group.p-button-secondary > .p-button.p-button-outlined:not(:disabled):hover, .p-splitbutton.p-button-secondary > .p-button.p-button-outlined:not(:disabled):hover {
-    background: rgba(96, 125, 139, 0.04);
-    color: #607D8B;
+    background: rgba(255, 255, 255, 0.04);
+    color: white;
     border: 1px solid;
   }
   .p-button.p-button-secondary.p-button-outlined:not(:disabled):active, .p-button-group.p-button-secondary > .p-button.p-button-outlined:not(:disabled):active, .p-splitbutton.p-button-secondary > .p-button.p-button-outlined:not(:disabled):active {
-    background: rgba(96, 125, 139, 0.16);
-    color: #607D8B;
+    background: rgba(255, 255, 255, 0.16);
+    color: white;
     border: 1px solid;
   }
   .p-button.p-button-secondary.p-button-text, .p-button-group.p-button-secondary > .p-button.p-button-text, .p-splitbutton.p-button-secondary > .p-button.p-button-text {
     background-color: transparent;
-    color: #607D8B;
+    color: white;
     border-color: transparent;
   }
   .p-button.p-button-secondary.p-button-text:not(:disabled):hover, .p-button-group.p-button-secondary > .p-button.p-button-text:not(:disabled):hover, .p-splitbutton.p-button-secondary > .p-button.p-button-text:not(:disabled):hover {
-    background: rgba(96, 125, 139, 0.04);
+    background: rgba(255, 255, 255, 0.04);
     border-color: transparent;
-    color: #607D8B;
+    color: white;
   }
   .p-button.p-button-secondary.p-button-text:not(:disabled):active, .p-button-group.p-button-secondary > .p-button.p-button-text:not(:disabled):active, .p-splitbutton.p-button-secondary > .p-button.p-button-text:not(:disabled):active {
-    background: rgba(96, 125, 139, 0.16);
+    background: rgba(255, 255, 255, 0.16);
     border-color: transparent;
-    color: #607D8B;
+    color: white;
   }
   .p-button.p-button-info, .p-button-group.p-button-info > .p-button, .p-splitbutton.p-button-info > .p-button {
     color: #ffffff;
@@ -4389,7 +4389,7 @@
     font-size: 9pt;
   }
   .p-tooltip .p-tooltip-text {
-    background: #171796;
+    background: #fff;
     color: #333333;
     padding: 0.5rem 0.5rem;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
@@ -4397,16 +4397,16 @@
     border: 1px solid rgba(0, 0, 0, 0.2);
   }
   .p-tooltip.p-tooltip-right .p-tooltip-arrow {
-    border-right-color: #171796;
+    border-right-color: #fff;
   }
   .p-tooltip.p-tooltip-left .p-tooltip-arrow {
-    border-left-color: #171796;
+    border-left-color: #fff;
   }
   .p-tooltip.p-tooltip-top .p-tooltip-arrow {
-    border-top-color: #171796;
+    border-top-color: #fff;
   }
   .p-tooltip.p-tooltip-bottom .p-tooltip-arrow {
-    border-bottom-color: #171796;
+    border-bottom-color: #fff;
   }
   .p-fileupload .p-fileupload-buttonbar {
     background: #f8f9fa;
