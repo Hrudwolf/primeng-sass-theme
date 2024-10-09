@@ -1982,7 +1982,7 @@
     right: 2.357rem;
   }
   .p-button {
-    color: #ffffff;
+    color: #ffffff !important;
     background: #171796;
     border: 1px solid #171796;
     padding: 0.5rem 1rem;
