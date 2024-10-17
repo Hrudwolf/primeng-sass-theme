@@ -4,11 +4,11 @@ $carouselIndicatorsPadding: 1rem;
 
 /// Padding of a carousel indicator
 /// @group media
-$carouselIndicatorBg: #e9ecef;
+$carouselIndicatorBg: $highlightBg;
 
 /// Padding of a carousel indicator in hover state
 /// @group media
-$carouselIndicatorHoverBg: #dee2e6;
+$carouselIndicatorHoverBg: $plainButtonActiveBgColor;
 
 /// Border radius of a carousel indicator
 /// @group media
@@ -43,7 +43,7 @@ $galleriaCloseIconBg: transparent;
 
 /// Color of a galleria close icon
 /// @group media
-$galleriaCloseIconColor: #ebedef;
+$galleriaCloseIconColor: $galleriaCaptionTextColor;
 
 /// Background of a galleria close icon in hover state
 /// @group media
@@ -51,7 +51,7 @@ $galleriaCloseIconHoverBg: rgba(255,255,255,0.1);
 
 /// Color of a galleria close icon in hover state
 /// @group media
-$galleriaCloseIconHoverColor: #ebedef;
+$galleriaCloseIconHoverColor: $galleriaCaptionTextColor;
 
 /// Width of a galleria close icon
 /// @group media
@@ -69,10 +69,6 @@ $galleriaCloseIconBorderRadius: 50%;
 /// @group media
 $galleriaItemNavigatorBg: rgba(0,0,0,.2);
 
-/// Color of a galleria navigator item
-/// @group media
-$galleriaItemNavigatorColor: #aeb6bf;
-
 /// Margin of a galleria navigator item
 /// @group media
 $galleriaItemNavigatorMargin: .5rem 0;
@@ -87,7 +83,7 @@ $galleriaItemNavigatorHoverBg: rgba(0,0,0,.3);
 
 /// Color of a galleria navigator item in hover state
 /// @group media
-$galleriaItemNavigatorHoverColor: #ebedef;
+$galleriaItemNavigatorHoverColor: $galleriaCaptionTextColor;
 
 /// Width of a galleria navigator item
 /// @group media
@@ -105,10 +101,6 @@ $galleriaItemNavigatorBorderRadius: $borderRadius;
 /// @group media
 $galleriaCaptionBg: rgba(0,0,0,.5);
 
-/// Color of a galleria caption
-/// @group media
-$galleriaCaptionTextColor: #ebedef;
-
 /// Padding of a galleria caption
 /// @group media
 $galleriaCaptionPadding: 1rem;
@@ -119,11 +111,11 @@ $galleriaIndicatorsPadding: 1rem;
 
 /// Background of a galleria indicator
 /// @group media
-$galleriaIndicatorBg: #e9ecef;
+$galleriaIndicatorBg: $highlightBg;
 
 /// Background of a galleria indicator in hover state
 /// @group media
-$galleriaIndicatorHoverBg: #dee2e6;
+$galleriaIndicatorHoverBg: $plainButtonActiveBgColor;
 
 /// Border radius of a galleria indicator
 /// @group media
@@ -163,7 +155,7 @@ $galleriaThumbnailNavigatorBg: transparent;
 
 /// Color of a galleria thumbnail navigator
 /// @group media
-$galleriaThumbnailNavigatorColor: #aeb6bf;
+$galleriaThumbnailNavigatorColor: $galleriaItemNavigatorColor;
 
 /// Background of a galleria thumbnail navigator in hover state
 /// @group media
@@ -171,7 +163,7 @@ $galleriaThumbnailNavigatorHoverBg: rgba(255,255,255,0.1);
 
 /// Color of a galleria thumbnail navigator in hover state
 /// @group media
-$galleriaThumbnailNavigatorHoverColor: #aeb6bf;
+$galleriaThumbnailNavigatorHoverColor: $galleriaItemNavigatorColor;
 
 /// Border radius of a galleria thumbnail navigator in hover state
 /// @group media
@@ -195,7 +187,7 @@ $imagePreviewToolbarPadding:1rem !default;
 
 /// Text color of the image preview indicator
 /// @group media
-$imagePreviewIndicatorColor:#f8f9fa !default;
+$imagePreviewIndicatorColor:$surfaceGroundColor !default;
 
 /// Background of the image preview indicator
 /// @group media
@@ -207,7 +199,7 @@ $imagePreviewActionIconBg:transparent !default;
 
 /// Text color of an image action item
 /// @group media
-$imagePreviewActionIconColor:#f8f9fa !default;
+$imagePreviewActionIconColor:$surfaceGroundColor !default;
 
 /// Background of an image action item in hover state
 /// @group media
@@ -215,7 +207,7 @@ $imagePreviewActionIconHoverBg:rgba(255,255,255,0.1) !default;
 
 /// Tect color of an image action item in hover state
 /// @group media
-$imagePreviewActionIconHoverColor:#f8f9fa !default;
+$imagePreviewActionIconHoverColor:$surfaceGroundColor !default;
 
 /// Width of an image action item
 /// @group media

@@ -10,21 +10,17 @@ $fontSize: 1rem;
 /// @group general
 $fontWeight: normal;
 
-/// Primary text color
-/// @group general
-$textColor: #495057;
-
 /// Secondary text color
 /// @group general
-$textSecondaryColor: #6c757d;
+$textSecondaryColor: $textSecondaryColor;
 
 /// Background of a highlighted item
 /// @group general
-$highlightBg: #e9ecef;
+$highlightBg: $highlightBg;
 
 /// Text color of a highlighted item
 /// @group general
-$highlightTextColor: #495057;
+$highlightTextColor: $textColor;
 
 /// Background of a highlighted item in focus state
 /// @group general
@@ -56,7 +52,7 @@ $primeIconFontSize: 1rem;
 
 /// Separator border
 /// @group general
-$divider: 1px solid #dee2e6;
+$divider: 1px solid $plainButtonActiveBgColor;
 
 /// Space between two inline items
 /// @group general
@@ -73,14 +69,6 @@ $maskBg: rgba(0, 0, 0, 0.4);
 /// Font size of the loading icons
 /// @group general
 $loadingIconFontSize: 2rem;
-
-/// Color to use on an invalid element e.g. invalid input
-/// @group general
-$errorColor: #e4677e;
-
-/// Outline color of a focused element
-/// @group general
-$focusOutlineColor: #bfd1f6;
 
 /// Outline of a focused element
 /// @group general
@@ -120,7 +108,7 @@ $actionIconColor: $textSecondaryColor;
 
 /// Backgroun of an action icon in hover state
 /// @group general
-$actionIconHoverBg: #e9ecef;
+$actionIconHoverBg: $highlightBg;
 
 /// Border of an action icon in hover state
 /// @group general

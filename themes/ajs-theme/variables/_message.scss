@@ -78,25 +78,21 @@ $toastTitleFontWeight: 700;
 /// @group message
 $toastDetailMargin: $inlineSpacing 0 0 0;
 
-/// Background of an info message
-/// @group message
-$infoMessageBg: #039BE5;
-
 /// Border of an info message
 /// @group message
-$infoMessageBorder: solid #027cb7;
+$infoMessageBorder: solid $infoMessageBorderColor;
 
 /// Text color of an info message
 /// @group message
-$infoMessageTextColor: #ffffff;
+$infoMessageTextColor: $primaryTextColor;
 
 /// Icon color of an info message
 /// @group message
-$infoMessageIconColor: #ffffff;
+$infoMessageIconColor: $primaryTextColor;
 
 /// Background of a success message
 /// @group message
-$successMessageBg: #43A047;
+$successMessageBg: $successButtonHoverBg;
 
 /// Border of a success message
 /// @group message
@@ -104,15 +100,15 @@ $successMessageBorder: 0 none;
 
 /// Text color of a success message
 /// @group message
-$successMessageTextColor: #ffffff;
+$successMessageTextColor: $primaryTextColor;
 
 /// Icon color of a success message
 /// @group message
-$successMessageIconColor: #ffffff;
+$successMessageIconColor: $primaryTextColor;
 
 /// Background of a warning message
 /// @group message
-$warningMessageBg: #FFB300;
+$warningMessageBg: $warningButtonHoverBg;
 
 /// Border of a warning message
 /// @group message
@@ -128,7 +124,7 @@ $warningMessageIconColor: $textColor;
 
 /// Background of an error message
 /// @group message
-$errorMessageBg: #E53935;
+$errorMessageBg: $dangerButtonHoverBg;
 
 /// Border of an error message
 /// @group message
@@ -136,8 +132,8 @@ $errorMessageBorder: 0 none;
 
 /// Text color of an error message
 /// @group message
-$errorMessageTextColor: #ffffff;
+$errorMessageTextColor: $primaryTextColor;
 
 /// Icon color of an error message
 /// @group message
-$errorMessageIconColor: #ffffff;
+$errorMessageIconColor: $primaryTextColor;

@@ -4,7 +4,7 @@ $inplacePadding: $inputPadding;
 
 /// Background of an inplace element in hover state
 /// @group misc
-$inplaceHoverBg: #e9ecef;
+$inplaceHoverBg: $highlightBg;
 
 /// Text color of an inplace element in hover state
 /// @group misc
@@ -48,7 +48,7 @@ $progressBarBorder: 0 none;
 
 /// Background of a progress bar
 /// @group misc
-$progressBarBg: #dee2e6;
+$progressBarBg: $plainButtonActiveBgColor;
 
 /// Background of a progress bar value
 /// @group misc
@@ -60,7 +60,7 @@ $progressBarValueTextColor:$primaryTextColor;
 
 /// Background of an avatar
 /// @group misc
-$avatarBg:#dee2e6;
+$avatarBg: $plainButtonActiveBgColor;
 
 /// Text color of an avatar
 /// @group misc
@@ -68,7 +68,7 @@ $avatarTextColor:$textColor;
 
 /// Background of a chip
 /// @group misc
-$chipBg:#dee2e6;
+$chipBg: $plainButtonActiveBgColor;
 
 /// Text color of a chip
 /// @group misc
@@ -80,7 +80,7 @@ $chipBorderRadius:16px;
 
 /// Background of a chip in focus state
 /// @group misc
-$chipFocusBg:#dee2e6 !default;
+$chipFocusBg: $plainButtonActiveBgColor !default;
 
 /// Color of a chip in focus state
 /// @group misc
@@ -112,11 +112,11 @@ $scrollTopFontSize:1.5rem;
 
 /// Text color of a scrollTop
 /// @group misc
-$scrollTopTextColor:#f8f9fa;
+$scrollTopTextColor:$surfaceGroundColor;
 
 /// Background of a skeleton
 /// @group misc
-$skeletonBg:#e9ecef;
+$skeletonBg:$highlightBg;
 
 /// Background of a skeleton animation
 /// @group misc

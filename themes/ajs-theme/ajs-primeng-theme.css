@@ -1,16 +1,16 @@
 :root {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --surface-a:#ffffff;
-  --surface-b:#f8f9fa;
-  --surface-c:#e9ecef;
-  --surface-d:#dee2e6;
-  --surface-e:#ffffff;
-  --surface-f:#ffffff;
-  --text-color:#495057;
-  --text-color-secondary:#6c757d;
-  --primary-color:#171796;
-  --primary-color-text:white;
+  --font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --surface-a: #ffffff;
+  --surface-b: #f8f9fa;
+  --surface-c: #e9ecef;
+  --surface-d: #dee2e6;
+  --surface-e: #ffffff;
+  --surface-f: #ffffff;
+  --text-color: #495057;
+  --text-color-secondary: #6c757d;
+  --primary-color: #171796;
+  --primary-color-text: #ffffff;
   --surface-0: #ffffff;
   --surface-50: #FAFAFA;
   --surface-100: #F5F5F5;
@@ -22,15 +22,15 @@
   --surface-700: #616161;
   --surface-800: #424242;
   --surface-900: #212121;
-  --content-padding:1rem;
-  --inline-spacing:0.5rem;
-  --border-radius:3px;
-  --surface-ground:#f8f9fa;
-  --surface-section:#ffffff;
-  --surface-card:#ffffff;
-  --surface-overlay:#ffffff;
-  --surface-border:#dee2e6;
-  --surface-hover:#e9ecef;
+  --content-padding: 1rem;
+  --inline-spacing: 0.5rem;
+  --border-radius: 3px;
+  --surface-ground: #f8f9fa;
+  --surface-section: #ffffff;
+  --surface-card: #ffffff;
+  --surface-overlay: #ffffff;
+  --surface-border: #dee2e6;
+  --surface-hover: #e9ecef;
   --maskbg: rgba(0, 0, 0, 0.4);
   --highlight-bg: #e9ecef;
   --highlight-text-color: #495057;
@@ -1587,7 +1587,7 @@
     background: #dee2e6;
   }
   .p-password-panel .p-password-meter .p-password-strength.weak {
-    background: #E53935;
+    background: #e53935;
   }
   .p-password-panel .p-password-meter .p-password-strength.medium {
     background: #FFB300;
@@ -2126,7 +2126,7 @@
   }
   .p-button.p-button-secondary, .p-button-group.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
     color: #333333;
-    background: white;
+    background: #ffffff;
     border: 1px solid #cccccc;
   }
   .p-button.p-button-secondary:not(:disabled):hover, .p-button-group.p-button-secondary > .p-button:not(:disabled):hover, .p-splitbutton.p-button-secondary > .p-button:not(:disabled):hover {
@@ -2144,33 +2144,33 @@
   }
   .p-button.p-button-secondary.p-button-outlined, .p-button-group.p-button-secondary > .p-button.p-button-outlined, .p-splitbutton.p-button-secondary > .p-button.p-button-outlined {
     background-color: transparent;
-    color: white;
+    color: #ffffff;
     border: 1px solid;
   }
   .p-button.p-button-secondary.p-button-outlined:not(:disabled):hover, .p-button-group.p-button-secondary > .p-button.p-button-outlined:not(:disabled):hover, .p-splitbutton.p-button-secondary > .p-button.p-button-outlined:not(:disabled):hover {
     background: rgba(255, 255, 255, 0.04);
-    color: white;
+    color: #ffffff;
     border: 1px solid;
   }
   .p-button.p-button-secondary.p-button-outlined:not(:disabled):active, .p-button-group.p-button-secondary > .p-button.p-button-outlined:not(:disabled):active, .p-splitbutton.p-button-secondary > .p-button.p-button-outlined:not(:disabled):active {
     background: rgba(255, 255, 255, 0.16);
-    color: white;
+    color: #ffffff;
     border: 1px solid;
   }
   .p-button.p-button-secondary.p-button-text, .p-button-group.p-button-secondary > .p-button.p-button-text, .p-splitbutton.p-button-secondary > .p-button.p-button-text {
     background-color: transparent;
-    color: white;
+    color: #ffffff;
     border-color: transparent;
   }
   .p-button.p-button-secondary.p-button-text:not(:disabled):hover, .p-button-group.p-button-secondary > .p-button.p-button-text:not(:disabled):hover, .p-splitbutton.p-button-secondary > .p-button.p-button-text:not(:disabled):hover {
     background: rgba(255, 255, 255, 0.04);
     border-color: transparent;
-    color: white;
+    color: #ffffff;
   }
   .p-button.p-button-secondary.p-button-text:not(:disabled):active, .p-button-group.p-button-secondary > .p-button.p-button-text:not(:disabled):active, .p-splitbutton.p-button-secondary > .p-button.p-button-text:not(:disabled):active {
     background: rgba(255, 255, 255, 0.16);
     border-color: transparent;
-    color: white;
+    color: #ffffff;
   }
   .p-button.p-button-info, .p-button-group.p-button-info > .p-button, .p-splitbutton.p-button-info > .p-button {
     color: #ffffff;
@@ -2458,11 +2458,11 @@
     width: 3rem;
     height: 3rem;
     background: #495057;
-    color: #fff;
+    color: #ffffff;
   }
   .p-speeddial-action:hover {
     background: #343a40;
-    color: #fff;
+    color: #ffffff;
   }
   .p-speeddial-direction-up .p-speeddial-item {
     margin: 0.25rem 0;
@@ -4378,23 +4378,23 @@
     padding: 1rem;
   }
   .p-tooltip .p-tooltip-text {
-    background: #fff;
+    background: #ffffff;
     color: #333333;
     padding: 0.5rem 0.5rem;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
     border-radius: 3px;
   }
   .p-tooltip.p-tooltip-right .p-tooltip-arrow {
-    border-right-color: #fff;
+    border-right-color: #ffffff;
   }
   .p-tooltip.p-tooltip-left .p-tooltip-arrow {
-    border-left-color: #fff;
+    border-left-color: #ffffff;
   }
   .p-tooltip.p-tooltip-top .p-tooltip-arrow {
-    border-top-color: #fff;
+    border-top-color: #ffffff;
   }
   .p-tooltip.p-tooltip-bottom .p-tooltip-arrow {
-    border-bottom-color: #fff;
+    border-bottom-color: #ffffff;
   }
   .p-fileupload .p-fileupload-buttonbar {
     background: #f8f9fa;
@@ -5552,7 +5552,7 @@
     color: #495057;
   }
   .p-inline-message.p-inline-message-error {
-    background: #E53935;
+    background: #e53935;
     border: 0 none;
     border-width: 1px;
     color: #ffffff;
@@ -5633,7 +5633,7 @@
     color: #495057;
   }
   .p-message.p-message-error {
-    background: #E53935;
+    background: #e53935;
     border: 0 none;
     border-width: 0 0 0 4px;
     color: #ffffff;
@@ -5736,7 +5736,7 @@
     color: #495057;
   }
   .p-toast .p-toast-message.p-toast-message-error {
-    background: #E53935;
+    background: #e53935;
     border: 0 none;
     border-width: 0 0 0 4px;
     color: #ffffff;

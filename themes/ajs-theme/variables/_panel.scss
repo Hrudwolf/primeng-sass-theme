@@ -1,14 +1,14 @@
 /// Border color of a panel header
 /// @group panel
-$panelHeaderBorderColor: #dee2e6;
+$panelHeaderBorderColor: $plainButtonActiveBgColor;
 
 /// Border of a panel header
 /// @group panel
-$panelHeaderBorder: 1px solid #dee2e6;
+$panelHeaderBorder: 1px solid $plainButtonActiveBgColor;
 
 /// Background of a panel header
 /// @group panel
-$panelHeaderBg: #f8f9fa;
+$panelHeaderBg: $surfaceGroundColor;
 
 /// Text color of a panel header
 /// @group panel
@@ -28,31 +28,27 @@ $panelToggleableHeaderPadding: .5rem 1rem;
 
 /// Background of a panel header in hover state e.g. toggleable state
 /// @group panel
-$panelHeaderHoverBg: #e9ecef;
+$panelHeaderHoverBg: $highlightBg;
 
 /// Border color of a panel header in hover state e.g. toggleable state
 /// @group panel
-$panelHeaderHoverBorderColor: #dee2e6;
+$panelHeaderHoverBorderColor: $plainButtonActiveBgColor;
 
 /// Text color of a panel header in hover state e.g. toggleable state
 /// @group panel
-$panelHeaderTextHoverColor: #495057;
-
-/// Border color for the content section of a panel
-/// @group panel
-$panelContentBorderColor: #dee2;
+$panelHeaderTextHoverColor: $highlightTextColor;
 
 /// Border for the content section of a panel
 /// @group panel
-$panelContentBorder: 1px solid #dee2e6;
+$panelContentBorder: 1px solid $plainButtonActiveBgColor;
 
 /// Background for the content section of a panel
 /// @group panel
-$panelContentBg: #ffffff;
+$panelContentBg: $primaryTextColor;
 
 /// Background for the striped row.
 /// @group panel
-$panelContentEvenRowBg: #e9ecef;
+$panelContentEvenRowBg: $highlightBg;
 
 /// Text color for the content section of a panel
 /// @group panel
@@ -64,11 +60,11 @@ $panelContentPadding: 1rem;
 
 /// Border for the footer section of a panel
 /// @group panel
-$panelFooterBorder: 1px solid #dee2e6;
+$panelFooterBorder: 1px solid $plainButtonActiveBgColor;
 
 /// Background for the footer section of a panel
 /// @group panel
-$panelFooterBg: #ffffff;
+$panelFooterBg: $primaryTextColor;
 
 /// Text color for the footer section of a panel
 /// @group panel
@@ -104,11 +100,11 @@ $accordionHeaderPadding: $panelHeaderPadding;
 
 /// Background of an accordion panel header in hover state
 /// @group panel
-$accordionHeaderHoverBg: #e9ecef;
+$accordionHeaderHoverBg: $highlightBg;
 
 /// Border of an accordion panel header in hover state
 /// @group panel
-$accordionHeaderHoverBorderColor: #dee2e6;
+$accordionHeaderHoverBorderColor: $plainButtonActiveBgColor;
 
 /// Text color of an accordion panel header in hover state
 /// @group panel
@@ -120,7 +116,7 @@ $accordionHeaderActiveBg: $panelHeaderBg;
 
 /// Border of an accordion panel header in expanded state
 /// @group panel
-$accordionHeaderActiveBorderColor: #dee2e6;
+$accordionHeaderActiveBorderColor: $plainButtonActiveBgColor;
 
 /// Text color of an accordion panel header in expanded state
 /// @group panel
@@ -128,11 +124,11 @@ $accordionHeaderTextActiveColor: $textColor;
 
 /// Hover background of an accordion panel header in expanded state
 /// @group panel
-$accordionHeaderActiveHoverBg: #e9ecef;
+$accordionHeaderActiveHoverBg: $highlightBg;
 
 /// Hover border of an accordion panel header in expanded state
 /// @group panel
-$accordionHeaderActiveHoverBorderColor: #dee2e6;
+$accordionHeaderActiveHoverBorderColor: $plainButtonActiveBgColor;
 
 /// Text color of an accordion panel header in expanded state
 /// @group panel
@@ -156,7 +152,7 @@ $accordionContentPadding: $panelContentPadding;
 
 /// Border for a parent element containing all the headers of a tabview
 /// @group panel
-$tabviewNavBorder: 1px solid #dee2e6;
+$tabviewNavBorder: 1px solid $plainButtonActiveBgColor;
 
 /// Border width for a parent element containing all the headers of a tabview
 /// @group panel
@@ -164,7 +160,7 @@ $tabviewNavBorderWidth: 0 0 2px 0;
 
 /// Background for a parent element containing all the headers of a tabview
 /// @group panel
-$tabviewNavBg: #ffffff;
+$tabviewNavBg: $primaryTextColor;
 
 /// Spacing between tabview headers
 /// @group panel
@@ -172,7 +168,7 @@ $tabviewHeaderSpacing: 0;
 
 /// Border of a tabview header
 /// @group panel
-$tabviewHeaderBorder: solid #dee2e6;
+$tabviewHeaderBorder: solid $plainButtonActiveBgColor;
 
 /// Border width of a tabview header
 /// @group panel
@@ -180,11 +176,11 @@ $tabviewHeaderBorderWidth: 0 0 2px 0;
 
 /// Border color of a tabview header
 /// @group panel
-$tabviewHeaderBorderColor: transparent transparent #dee2e6 transparent;
+$tabviewHeaderBorderColor: transparent transparent $plainButtonActiveBgColor transparent;
 
 /// Background of a tabview header
 /// @group panel
-$tabviewHeaderBg: #ffffff;
+$tabviewHeaderBg: $primaryTextColor;
 
 /// Text color of a tabview header
 /// @group panel
@@ -204,11 +200,7 @@ $tabviewHeaderMargin: 0 0 -2px 0;
 
 /// Background of a tabview header in hover state
 /// @group panel
-$tabviewHeaderHoverBg: #ffffff;
-
-/// Border of a tabview header in hover state
-/// @group panel
-$tabviewHeaderHoverBorderColor: #9ba2aa;
+$tabviewHeaderHoverBg: $primaryTextColor;
 
 /// Text color of a tabview header in hover state
 /// @group panel
@@ -216,7 +208,7 @@ $tabviewHeaderTextHoverColor: $textSecondaryColor;
 
 /// Background of a tabview header in selected state
 /// @group panel
-$tabviewHeaderActiveBg: #ffffff;
+$tabviewHeaderActiveBg: $primaryTextColor;
 
 /// Border of a tabview header in selected state
 /// @group panel
@@ -244,11 +236,11 @@ $tabviewContentPadding: $panelContentPadding;
 
 /// Background of a fieldset header in hover state
 /// @group panel
-$panelHeaderHoverBg: #e9ecef;
+$panelHeaderHoverBg: $highlightBg;
 
 /// Border of a fieldset header in hover state
 /// @group panel
-$panelHeaderHoverBorderColor: #dee2e6;
+$panelHeaderHoverBorderColor: $plainButtonActiveBgColor;
 
 /// Text color of a fieldset header in hover state
 /// @group panel
@@ -260,7 +252,7 @@ $scrollPanelTrackBorder: 0 none;
 
 /// Background for a track bar of a scroll panel
 /// @group panel
-$scrollPanelTrackBg: #f8f9fa;
+$scrollPanelTrackBg: $surfaceGroundColor;
 
 /// Padding of a card body
 /// @group panel
@@ -316,12 +308,12 @@ $dividerSize:1px;
 
 /// Color of the divider border
 /// @group panel
-$dividerColor:#dee2e6;
+$dividerColor: $plainButtonActiveBgColor;
 
 /// Background of the splitter gutter
 /// @group panel
-$splitterGutterBg:#f8f9fa;
+$splitterGutterBg:$surfaceGroundColor;
 
 /// Background of the splitter gutter handle
 /// @group panel
-$splitterGutterHandleBg:#dee2e6;
+$splitterGutterHandleBg: $plainButtonActiveBgColor;

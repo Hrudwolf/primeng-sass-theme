@@ -12,11 +12,11 @@ $overlayContainerShadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
 
 /// Background of a dialog header
 /// @group overlay
-$dialogHeaderBg: #ffffff;
+$dialogHeaderBg: $primaryTextColor;
 
 /// Border of a dialog header
 /// @group overlay
-$dialogHeaderBorder: 1px solid #dee2e6;
+$dialogHeaderBorder: 1px solid $plainButtonActiveBgColor;
 
 /// Text color of a dialog header
 /// @group overlay
@@ -40,7 +40,7 @@ $dialogContentPadding: 0 1.5rem;
 
 /// Border of a dialog footer
 /// @group overlay
-$dialogFooterBorder: 1px solid #dee2e6;
+$dialogFooterBorder: 1px solid $plainButtonActiveBgColor;
 
 /// Padding of a dialog footer
 /// @group overlay
@@ -48,11 +48,11 @@ $dialogFooterPadding: 1.5rem;
 
 /// Background of a tooltip
 /// @group overlay
-$tooltipBg: #fff;
+$tooltipBg: $primaryTextColor;
 
 /// Text color of a tooltip
 /// @group overlay
-$tooltipTextColor: #333333;
+$tooltipTextColor: $secondaryButtonTextColor;
 
 /// Padding of a tooltip
 /// @group overlay
