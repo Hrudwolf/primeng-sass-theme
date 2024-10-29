@@ -103,3 +103,22 @@ p-button.p-button-secondary, .p-button-group.p-button-secondary > .p-button, .p-
 		}
 	}
 }
+
+.p-fieldset .p-fieldset-legend {
+	border: none;
+	background: none;
+
+	a {
+		font-size: 1.2rem
+	}
+}
+
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend:hover {
+	background: none
+}
+
+.p-element:focus {
+	outline: none;
+}
+
+ 
