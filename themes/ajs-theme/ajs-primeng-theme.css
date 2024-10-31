@@ -2989,14 +2989,14 @@
   }
   .p-orderlist .p-orderlist-header {
     color: #495057;
-    padding: 1rem;
-    font-weight: 600;
+    padding: 0.75rem;
+    font-weight: 700;
   }
   .p-orderlist .p-orderlist-header .p-orderlist-title {
-    font-weight: 600;
+    font-weight: 700;
   }
   .p-orderlist .p-orderlist-filter-container {
-    padding: 1rem;
+    padding: 0.75rem;
     background: #ffffff;
     border: 1px solid #dee2e6;
     border-bottom: 0 none;
@@ -3204,14 +3204,14 @@
   }
   .p-picklist .p-picklist-header {
     color: #495057;
-    padding: 1rem;
-    font-weight: 600;
+    padding: 0.75rem;
+    font-weight: 700;
   }
   .p-picklist .p-picklist-header .p-picklist-title {
-    font-weight: 600;
+    font-weight: 700;
   }
   .p-picklist .p-picklist-filter-container {
-    padding: 1rem;
+    padding: 0.75rem;
     background: #ffffff;
     border: 1px solid #dee2e6;
     border-bottom: 0 none;
@@ -3685,11 +3685,11 @@
     border-bottom-right-radius: 3px;
   }
   .p-accordion .p-accordion-header .p-accordion-header-link {
-    padding: 1rem;
+    padding: 0.75rem;
     border: 1px solid #dee2e6;
     color: #495057;
     background: #f8f9fa;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 3px;
     transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
   }
@@ -3811,11 +3811,11 @@
     border-radius: 3px;
   }
   .p-fieldset .p-fieldset-legend {
-    padding: 1rem;
+    padding: 0.75rem;
     border: 1px solid #dee2e6;
     color: #495057;
     background: #f8f9fa;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 3px;
   }
   .p-fieldset.p-fieldset-toggleable .p-fieldset-legend {
@@ -3823,7 +3823,7 @@
     transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
   }
   .p-fieldset.p-fieldset-toggleable .p-fieldset-legend a {
-    padding: 1rem;
+    padding: 0.75rem;
     color: #495057;
     border-radius: 3px;
     transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
@@ -3846,14 +3846,14 @@
   }
   .p-panel .p-panel-header {
     border: 1px solid #dee2e6;
-    padding: 1rem;
+    padding: 0.75rem;
     background: #f8f9fa;
     color: #495057;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
   }
   .p-panel .p-panel-header .p-panel-title {
-    font-weight: 600;
+    font-weight: 700;
   }
   .p-panel .p-panel-header .p-panel-header-icon {
     width: 2rem;
@@ -3958,8 +3958,8 @@
     border-color: transparent transparent #dee2e6 transparent;
     background: #ffffff;
     color: #6c757d;
-    padding: 1rem;
-    font-weight: 600;
+    padding: 0.75rem;
+    font-weight: 700;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
     transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
@@ -4012,7 +4012,7 @@
   .p-toolbar {
     background: #f8f9fa;
     border: 1px solid #dee2e6;
-    padding: 1rem;
+    padding: 0.75rem;
     border-radius: 3px;
     gap: 0.5rem;
   }
@@ -4344,7 +4344,7 @@
     box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
   }
   .p-sidebar .p-sidebar-header {
-    padding: 1rem;
+    padding: 0.75rem;
   }
   .p-sidebar .p-sidebar-header .p-sidebar-close,
   .p-sidebar .p-sidebar-header .p-sidebar-icon {
@@ -4375,7 +4375,7 @@
     padding: 1rem;
   }
   .p-sidebar .p-sidebar-footer {
-    padding: 1rem;
+    padding: 0.75rem;
   }
   .p-tooltip .p-tooltip-text {
     background: #ffffff;
@@ -4398,7 +4398,7 @@
   }
   .p-fileupload .p-fileupload-buttonbar {
     background: #f8f9fa;
-    padding: 1rem;
+    padding: 0.75rem;
     border: 1px solid #dee2e6;
     color: #495057;
     border-bottom: 0 none;
@@ -5062,8 +5062,8 @@
   }
   .p-panelmenu .p-panelmenu-header .p-panelmenu-header-content .p-panelmenu-header-action {
     color: #495057;
-    padding: 1rem;
-    font-weight: 600;
+    padding: 0.75rem;
+    font-weight: 700;
   }
   .p-panelmenu .p-panelmenu-header .p-panelmenu-header-content .p-panelmenu-header-action .p-submenu-icon {
     margin-right: 0.5rem;
@@ -5386,8 +5386,8 @@
     border-color: transparent transparent #dee2e6 transparent;
     background: #ffffff;
     color: #6c757d;
-    padding: 1rem;
-    font-weight: 600;
+    padding: 0.75rem;
+    font-weight: 700;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
     transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
@@ -6239,6 +6239,22 @@ p-button.p-button-secondary:not(:disabled):active, .p-button-group.p-button-seco
 
 .p-treeselect .p-treeselect-label.p-placeholder {
   text-transform: none;
+}
+
+.p-fieldset .p-fieldset-legend {
+  border: none;
+  background: none;
+}
+.p-fieldset .p-fieldset-legend a {
+  font-size: 1.2rem;
+}
+
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend:hover {
+  background: none;
+}
+
+.p-element:focus {
+  outline: none;
 }
 
 /*# sourceMappingURL=ajs-primeng-theme.css.map */
