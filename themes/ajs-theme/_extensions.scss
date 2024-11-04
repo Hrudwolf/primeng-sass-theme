@@ -38,12 +38,8 @@ horizontal-rootmenuitem {
 	color: $buttonTextColor !important;
 }
 
-p-button.p-button-secondary, .p-button-group.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
+.p-button.p-button-secondary, .p-button-group.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
 	color: $secondaryButtonTextColor !important;
-
-	&:not(:disabled):hover {
-		color: $secondaryButtonTextHoverColor !important;
-	}
 
 	&:not(:disabled):active {
 		color: $secondaryButtonTextActiveColor !important;
