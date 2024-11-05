@@ -117,4 +117,10 @@ horizontal-rootmenuitem {
 	outline: none;
 }
 
+.p-inputgroup {
+	.p-dropdown .p-overlay .p-dropdown-header .p-dropdown-filter-container input {
+		width: 100%
+	}
+}
+
  
