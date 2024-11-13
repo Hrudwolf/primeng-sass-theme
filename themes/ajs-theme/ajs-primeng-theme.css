@@ -2770,7 +2770,7 @@
     border-width: 0 1px 0 1px;
   }
   .p-datatable.p-datatable-striped .p-datatable-tbody > tr:nth-child(even) {
-    background: #ffffff;
+    background: #eeeeee;
   }
   .p-datatable.p-datatable-striped .p-datatable-tbody > tr:nth-child(even).p-highlight {
     background: #e9ecef;
@@ -6256,6 +6256,10 @@ horizontal-rootmenuitem > .p-menuitem-content .p-menuitem-link {
 
 .p-inputgroup .p-dropdown .p-overlay .p-dropdown-header .p-dropdown-filter-container input {
   width: 100%;
+}
+
+.formgroup-inline .field {
+  margin-right: unset;
 }
 
 /*# sourceMappingURL=ajs-primeng-theme.css.map */
