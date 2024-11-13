@@ -6254,4 +6254,8 @@ horizontal-rootmenuitem > .p-menuitem-content .p-menuitem-link {
   outline: none;
 }
 
+.p-inputgroup .p-dropdown .p-overlay .p-dropdown-header .p-dropdown-filter-container input {
+  width: 100%;
+}
+
 /*# sourceMappingURL=ajs-primeng-theme.css.map */
