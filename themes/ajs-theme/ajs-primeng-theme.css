@@ -2021,14 +2021,14 @@
     color: #6c757d;
   }
   .p-button.p-button-text {
-    background-color: transparent;
+    background-color: #171796;
     color: #171796;
-    border-color: transparent;
+    border-color: #171796;
   }
   .p-button.p-button-text:not(:disabled):hover {
-    background: rgba(23, 23, 150, 0.04);
+    background: #171796;
     color: #171796;
-    border-color: transparent;
+    border-color: #171796;
   }
   .p-button.p-button-text:not(:disabled):active {
     background: rgba(23, 23, 150, 0.16);
@@ -6260,6 +6260,10 @@ horizontal-rootmenuitem > .p-menuitem-content .p-menuitem-link {
 
 .formgroup-inline .field {
   margin-right: unset;
+}
+
+.p-datepicker-calendar-container th {
+  text-align: center;
 }
 
 /*# sourceMappingURL=ajs-primeng-theme.css.map */
