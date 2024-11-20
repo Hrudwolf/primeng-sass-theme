@@ -6180,7 +6180,7 @@
 }
 
 .p-table .p-paginator.p-component button.p-paginator-element {
-  background: #ffffff;
+  background: var(--surface-0);
   margin: 0;
   border: thin solid var(--surface-300);
 }
