@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 /// Padding of a button, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
 /// @group button
 $buttonPadding: .5rem 1rem;
@@ -188,7 +190,7 @@ $warningButtonActiveBorderColor: $warningButtonActiveBg;
 
 /// Box shadow of a warning button in focused state
 /// @group button
-$warningButtonFocusShadow: 0 0 0 0.2rem lighten($warningButtonBg, 35%);
+$warningButtonFocusShadow: 0 0 0 0.2rem color.adjust($warningButtonBg, $lightness: 35%);
 
 /// Text color of a help button
 /// @group button
