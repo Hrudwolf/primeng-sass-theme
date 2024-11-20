@@ -6175,7 +6175,35 @@
     font-size: 1rem;
   }
 }
-/* Customizations to the designer theme should be defined here */
+.p-table .p-paginator.p-component {
+  background: transparent;
+}
+
+.p-table .p-paginator.p-component button.p-paginator-element {
+  background: #ffffff;
+  margin: 0;
+  border: thin solid var(--surface-300);
+}
+
+.p-table .p-paginator.p-component button.p-paginator-element.p-highlight {
+  background: var(--primary-color);
+  color: var(--primary-color-text);
+}
+
+.p-table .p-paginator.p-component .p-paginator-page-input {
+  margin-right: 0;
+}
+
+.p-table .p-paginator.p-component .p-paginator-page-input input.p-inputnumber-input {
+  padding: 0.374rem 0;
+  text-align: center;
+}
+
+.p-table .p-paginator.p-component .p-paginator-rpp-options .p-dropdown-label {
+  padding-top: 0.374rem;
+  padding-bottom: 0.374rem;
+}
+
 menuitem-link {
   -webkit-user-select: none;
 }
