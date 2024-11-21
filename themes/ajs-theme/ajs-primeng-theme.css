@@ -330,7 +330,7 @@
     right: 2.857rem;
   }
   .p-autocomplete:not(.p-disabled):hover .p-autocomplete-multiple-container {
-    border-color: #171796;
+    border-color: #ced4da;
   }
   .p-autocomplete:not(.p-disabled).p-focus .p-autocomplete-multiple-container {
     outline: 0 none;
@@ -671,7 +671,7 @@
     border-radius: 3px;
   }
   .p-cascadeselect:not(.p-disabled):hover {
-    border-color: #171796;
+    border-color: #ced4da;
   }
   .p-cascadeselect:not(.p-disabled).p-focus {
     outline: 0 none;
@@ -807,7 +807,7 @@
     background: #171796;
   }
   .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
-    border-color: #171796;
+    border-color: #ced4da;
   }
   .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
     outline: 0 none;
@@ -854,7 +854,7 @@
     border-color: #e4677e;
   }
   .p-chips:not(.p-disabled):hover .p-chips-multiple-container {
-    border-color: #171796;
+    border-color: #ced4da;
   }
   .p-chips:not(.p-disabled).p-focus .p-chips-multiple-container {
     outline: 0 none;
@@ -924,7 +924,7 @@
     border-radius: 3px;
   }
   .p-dropdown:not(.p-disabled):hover {
-    border-color: #171796;
+    border-color: #ced4da;
   }
   .p-dropdown:not(.p-disabled).p-focus {
     outline: 0 none;
@@ -1233,7 +1233,7 @@
     border-radius: 3px;
   }
   .p-inputtext:enabled:hover {
-    border-color: #171796;
+    border-color: #ced4da;
   }
   .p-inputtext:enabled:focus {
     outline: 0 none;
@@ -1417,7 +1417,7 @@
     border-radius: 3px;
   }
   .p-multiselect:not(.p-disabled):hover {
-    border-color: #171796;
+    border-color: #ced4da;
   }
   .p-multiselect:not(.p-disabled).p-focus {
     outline: 0 none;
@@ -1624,7 +1624,7 @@
     outline-color: transparent;
   }
   .p-radiobutton .p-radiobutton-box:not(.p-disabled):not(.p-highlight):hover {
-    border-color: #171796;
+    border-color: #ced4da;
   }
   .p-radiobutton .p-radiobutton-box:not(.p-disabled).p-focus {
     outline: 0 none;
@@ -1854,7 +1854,7 @@
     border-radius: 3px;
   }
   .p-treeselect:not(.p-disabled):hover {
-    border-color: #171796;
+    border-color: #ced4da;
   }
   .p-treeselect:not(.p-disabled).p-focus {
     outline: 0 none;
