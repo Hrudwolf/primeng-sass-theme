@@ -1,40 +1,48 @@
+@use 'sass:color';
+
 // Theme Specific Variables
+$brand-primary: #171796;
+$brand-success: #5cb85c;
+$brand-info: #5bc0de;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+
 $textColor: #495057;
 $errorColor: #e4677e;
 
-$primaryColor: #171796;
-$primaryDarkColor:#131379;
-$primaryDarkerColor: #141480;
+$primaryColor: $brand-primary;
+$primaryDarkColor: color.adjust($primaryColor, $lightness: -5%);
+$primaryDarkerColor: color.adjust($primaryColor, $lightness: -10%);
 $primaryTextColor: #ffffff;
 
 $textSecondaryColor: #6c757d;
 
-$secondaryButtonActiveBg: #455A64;
+$secondaryButtonActiveBg: #ffffff;
 $secondaryButtonTextColor: #333333;
-$secondaryButtonHoverBg: #e6e6e6;
+$secondaryButtonHoverBg: color.adjust($secondaryButtonActiveBg, $lightness: -5%);
 $secondaryButtonBorder: 1px solid #cccccc;
-$secondaryButtonFocusShadowColor: #B0BEC5;
+$secondaryButtonFocusShadowColor: color.adjust(#cccccc, $lightness: -5%);
 
-$infoButtonBg: #03A9F4;
-$infoButtonActiveBg: #0288D1;
-$infoMessageBorderColor: #027cb7;
+$successButtonBg: $brand-success;
+$successButtonHoverBg: color.adjust($successButtonBg, $lightness: -5%);
+$successButtonActiveBg: color.adjust($successButtonBg, $lightness: -5%);
 
-$successButtonBg: #4CAF50;
-$successButtonHoverBg: #43A047;
-$successButtonActiveBg: #388E3C;
+$infoButtonBg: $brand-info;
+$infoButtonActiveBg: color.adjust($infoButtonBg, $lightness: -5%);
+$infoMessageBorderColor: color.adjust($infoButtonBg, $lightness: -5%);
 
-$warningButtonBg: #FFC107;
-$warningButtonHoverBg: #FFB300;
-$warningButtonActiveBg: #FFA000;
+$helpButtonBg: $brand-info;
+$helpButtonHoverBg: color.adjust($helpButtonBg, $lightness: -5%);
+$helpButtonActiveBg: color.adjust($helpButtonBg, $lightness: -5%);
+$helpButtonFocusShadowColor: color.adjust($helpButtonBg, $lightness: -10%);
 
-$helpButtonBg: #9C27B0;
-$helpButtonHoverBg: #8E24AA;
-$helpButtonActiveBg: #7B1FA2;
-$helpButtonFocusShadowColor: #CE93D8;
+$warningButtonBg: $brand-warning;
+$warningButtonHoverBg: color.adjust($warningButtonBg, $lightness: -5%);
+$warningButtonActiveBg: color.adjust($warningButtonBg, $lightness: -5%);
 
-$dangerButtonBg: #f44336;
-$dangerButtonHoverBg: #e53935;
-$dangerButtonActiveBg: #d32f2f;
+$dangerButtonBg: $brand-danger;
+$dangerButtonHoverBg: color.adjust($dangerButtonBg, $lightness: -5%);
+$dangerButtonActiveBg: color.adjust($dangerButtonBg, $lightness: -5%);
 
 $speedDialActionHoverBg: #343a40;
 
@@ -65,7 +73,7 @@ $stepsItemBorderColor: #c8c8c8;
 
 $tabviewHeaderHoverBorderColor: #9ba2aa;
 
-$colors: (
+$colors: ( 
     "blue": #2196F3,
     "green": $successButtonBg,
     "yellow": #FBC02D,
