@@ -280,6 +280,12 @@
   .p-error {
     color: #e4677e;
   }
+  .p-warning {
+    color: #f0ad4e;
+  }
+  .p-success {
+    color: #5cb85c;
+  }
   .p-text-secondary {
     color: #6c757d;
   }
